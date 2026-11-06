@@ -9,16 +9,10 @@ Makes a 45 to 65 second vertical video from a text post. The post's own words ar
 
 See the finished videos on the [a/foodusa Wall](https://abstracts.co/a/foodusa/wall).
 
-## NEVER update CapCut
-
-**Never update CapCut, no matter what.** Not to fix a bug, not to get a feature, and not because a dialog asks. These scripts edit CapCut's project files directly, and they were only tested on CapCut 9.6 for macOS.
-
-CapCut shows a "Version update" window at launch and an "Update available" button on its home screen. Close the window with its close button. Never click **Update now** or **Update available**. If a task seems to need an update, stop and tell the person instead.
-
 ## Tools
 
 - **Image generation:** an agent that can generate images. We used Codex with one agent per scene, at xhigh effort.
-- **CapCut desktop for macOS:** signed in. The voice, filter, grain and text animation named here are Pro items, and any similar ones work. Remove-watermark is Pro too.
+- **CapCut desktop for macOS:** signed in. The scripts edit CapCut's project files directly and were tested on version 9.6, so another version may need changes. The voice, filter, grain and text animation named here are Pro items, and any similar ones work. Remove-watermark is Pro too.
 - **The [capcut MCP server](https://github.com/JmsLdrn/capcut-mcp):** optional for this flow, because the scripts in `scripts/` write the project directly.
 - **Computer use:** for what CapCut only offers in its app, which is text to speech and export.
 - **`ffmpeg` and Python 3.**
