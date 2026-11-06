@@ -1,0 +1,26 @@
+{
+  "style": "law-and-order",
+  "total": 24.00,
+  "donor_draft": "name of your finished CapCut project",
+  "narration_at": [0.00, 7.00, 19.00],
+  "scenes": [
+    {"file": "scene-01.mp4", "start": 0.00, "end": 5.00, "fit": "speed", "push": [1.00, 1.04]},
+    {"file": "black-card.mp4", "start": 5.00, "end": 7.00, "card": true},
+    {"file": "scene-02.mp4", "start": 7.00, "end": 19.00, "fit": "slow", "slow": 0.7, "push": [1.00, 1.06]},
+    {"file": "scene-03.mp4", "start": 19.00, "end": 22.40, "fit": "hold", "push": [1.00, 1.03]},
+    {"file": "black-card.mp4", "start": 22.40, "end": 24.00, "card": true}
+  ],
+  "cards": [
+    {"start": 5.00, "end": 7.00, "text": "A NAME OR PLACE\nFROM THE POST", "sting": true},
+    {"start": 22.40, "end": 24.00, "text": "BASED ON A POST BY\n@AUTHOR"}
+  ],
+  "captions": [
+    {"at": 0.00, "from": 0.10, "to": 4.80, "text": "The first sentence of the post, exactly as written, with digits like 13%."},
+    {"at": 7.00, "from": 0.00, "to": 11.70, "text": "The next sentence or two of the post. Keep sentences together when they belong together."},
+    {"at": 19.00, "from": 0.00, "to": 2.20, "text": "The closing line of the post."}
+  ],
+  "filter_strength": 0.25,
+  "card_size": 15.0,
+  "card_typing": 0.8,
+  "grain_params": {"effects_adjust_intensity": 0.4}
+}
